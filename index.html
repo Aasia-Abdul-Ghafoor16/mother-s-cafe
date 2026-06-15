@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maa's Kitchen — Where Love is the Secret Ingredient</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── CURSOR ───── -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ───── LOADER ───── -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-icon">🍽</span>
+      <p class="loader-text">Warming up with love…</p>
+    </div>
+  </div>
+
+  <!-- ───── NAV ───── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">✦</span>
+      <span class="logo-text">Maa's Kitchen</span>
+      <span class="logo-icon">✦</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="home.html" class="nav-link">Home</a></li>
+      <li><a href="story.html" class="nav-link">Our Story</a></li>
+      <li><a href="menu.html" class="nav-link">Menu</a></li>
+      <li><a href="specials.html" class="nav-link">Specials</a></li>
+      <li><a href="testimonials.html" class="nav-link">Love Notes</a></li>
+      <li><a href="order.html" class="nav-link btn-order">Order Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Maa ka pyar khane main</p>
+      <h1 class="hero-title reveal">
+        <span class="line">Maa's</span>
+        <span class="line italic">Kitchen</span>
+      </h1>
+      <div class="hero-divider reveal">
+        <span class="divider-line"></span>
+        <span class="divider-icon">❧</span>
+        <span class="divider-line"></span>
+      </div>
+      <p class="hero-tagline reveal">
+        Where every dish carries a memory,<br />
+        every spice holds a prayer,<br />
+        and every bite feels like coming home.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="menu.html" class="btn btn-primary">Explore the Menu</a>
+        <a href="#story" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to savour</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ───── MARQUEE ───── -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Home Cooked</span><span class="sep">✦</span>
+      <span>Made with Love</span><span class="sep">✦</span>
+      <span>Mother's Touch</span><span class="sep">✦</span>
+      <span>Fresh Every Day</span><span class="sep">✦</span>
+      <span>Secret Recipes</span><span class="sep">✦</span>
+      <span>Served with Soul</span><span class="sep">✦</span>
+      <span>Home Cooked</span><span class="sep">✦</span>
+      <span>Made with Love</span><span class="sep">✦</span>
+      <span>Mother's Touch</span><span class="sep">✦</span>
+      <span>Fresh Every Day</span><span class="sep">✦</span>
+      <span>Secret Recipes</span><span class="sep">✦</span>
+      <span>Served with Soul</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ───── STORY ───── -->
+  <section class="story" id="story">
+    <div class="story-deco-left">
+      <svg viewBox="0 0 60 400" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 0 Q60 100 30 200 Q0 300 30 400" stroke="var(--gold)" stroke-width="1" fill="none" opacity="0.4"/>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image-wrap fade-in">
+          <div class="story-image-frame">
+            <div class="story-image-inner">
+              <div class="story-emoji-art">
+                <span>🍛</span><span>🥘</span>
+                <span>🫕</span><span>🥗</span>
+                <span>❤️</span>
+                <span>🍲</span><span>🥙</span>
+                <span>🫔</span><span>🍱</span>
+              </div>
+              <p class="story-image-caption">"Her hands remember what her heart never forgets."</p>
+            </div>
+          </div>
+          <div class="story-badge">
+            <span class="badge-number">25+</span>
+            <span class="badge-text">Years of<br>Love & Recipes</span>
+          </div>
+        </div>
+        <div class="story-text fade-in">
+          <p class="section-label">Our Story</p>
+          <h2 class="section-title">A Kitchen Built on<br /><em>Unconditional Love</em></h2>
+          <div class="section-divider">
+            <span></span><span class="dot">◆</span><span></span>
+          </div>
+          <p class="story-para">
+            Long before sunrise, she is already in the kitchen. The soft clatter of pots, the warmth of the stove — 
+            these are sounds we grew up with. Every recipe she makes is not just food; it's a love letter written in 
+            saffron, turmeric, and cardamom.
+          </p>
+          <p class="story-para">
+            Maa's Kitchen was born from one simple belief: <strong>the best food in the world is made at home, 
+            by a mother who cooks not for money, but for love.</strong> Every dish here carries her dedication, 
+            her patience, and her timeless wisdom.
+          </p>
+          <div class="story-values">
+            <div class="value-item">
+              <span class="value-icon">🌿</span>
+              <div>
+                <h4>Fresh Ingredients</h4>
+                <p>Sourced daily from local markets</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">❤️</span>
+              <div>
+                <h4>Cooked with Love</h4>
+                <p>Each dish is made with intention</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🏺</span>
+              <div>
+                <h4>Generational Recipes</h4>
+                <p>Passed down for over 25 years</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── STATS ───── -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="1200">0</span><span class="stat-plus">+</span>
+          <p class="stat-label">Happy Families</p>
+        </div>
+        <div class="stat-divider">✦</div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="80">0</span><span class="stat-plus">+</span>
+          <p class="stat-label">Signature Dishes</p>
+        </div>
+        <div class="stat-divider">✦</div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="25">0</span><span class="stat-plus">+</span>
+          <p class="stat-label">Years of Mastery</p>
+        </div>
+        <div class="stat-divider">✦</div>
+        <div class="stat-item fade-in">
+          <span class="stat-number" data-target="100">0</span><span class="stat-percent">%</span>
+          <p class="stat-label">Made with Love</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ───── MENU ───── -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <p class="section-label text-center fade-in">Handcrafted Daily</p>
+      <h2 class="section-title text-center fade-in">Today's <em>Signature</em> Menu</h2>
+      <div class="section-divider centered fade-in">
+        <span></span><span class="dot">◆</span><span></span>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="menu-filters fade-in">
+        <button class="filter-btn active" data-filter="all">All Dishes</button>
+        <button class="filter-btn" data-filter="main">Main Course</button>
+        <button class="filter-btn" data-filter="starter">Starters</button>
+        <button class="filter-btn" data-filter="dessert">Desserts</button>
+        <button class="filter-btn" data-filter="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <div class="menu-card fade-in" data-category="main">
+          <div class="card-badge">Chef's Special</div>
+          <div class="card-emoji">🍛</div>
+          <div class="card-body">
+            <h3 class="card-title">Maa's Dal Makhani</h3>
+            <p class="card-desc">Slow-cooked overnight, simmered in butter and cream — the dish that started it all.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 350</span>
+              <button class="card-btn" onclick="addToCart('Maa\'s Dal Makhani', 350)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="main">
+          <div class="card-emoji">🥘</div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Handi</h3>
+            <p class="card-desc">Tender chicken in a rich, velvety gravy cooked in her prized clay pot.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 550</span>
+              <button class="card-btn" onclick="addToCart('Chicken Handi', 550)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="starter">
+          <div class="card-badge new">New</div>
+          <div class="card-emoji">🫔</div>
+          <div class="card-body">
+            <h3 class="card-title">Shami Kebab</h3>
+            <p class="card-desc">Minced meat patties with secret spices, pan-fried to golden perfection.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 280</span>
+              <button class="card-btn" onclick="addToCart('Shami Kebab', 280)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="main">
+          <div class="card-emoji">🫕</div>
+          <div class="card-body">
+            <h3 class="card-title">Mutton Nihari</h3>
+            <p class="card-desc">Slow-braised overnight with aromatic spices — a royal tradition served daily.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 680</span>
+              <button class="card-btn" onclick="addToCart('Mutton Nihari', 680)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="dessert">
+          <div class="card-badge">Beloved</div>
+          <div class="card-emoji"><img src="" alt=""></div>
+          <div class="card-body">
+            <h3 class="card-title">Sheer Khurma</h3>
+            <p class="card-desc">Vermicelli pudding with dates, pistachios, saffron — grandmother's treasure.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 200</span>
+              <button class="card-btn" onclick="addToCart('Sheer Khurma', 200)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="starter">
+          <div class="card-emoji"><img src="52217e55b9d9bbfc5a462639dfd87415.jpg" alt=""></div>
+          <div class="card-body">
+            <h3 class="card-title">Dahi Bhalla</h3>
+            <p class="card-desc">Soft lentil dumplings bathed in chilled yogurt with tamarind and mint chutney.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 180</span>
+              <button class="card-btn" onclick="addToCart('Dahi Bhalla', 180)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="dessert">
+          <div class="card-emoji">🍨</div>
+          <div class="card-body">
+            <h3 class="card-title">Homemade Kheer</h3>
+            <p class="card-desc">Rice pudding scented with rose water, cardamom and garnished with almonds.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 160</span>
+              <button class="card-btn" onclick="addToCart('Homemade Kheer', 160)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-category="drinks">
+          <div class="card-emoji">🥛</div>
+          <div class="card-body">
+            <h3 class="card-title">Rose Lassi</h3>
+            <p class="card-desc">Chilled yogurt blended with rose syrup and a hint of cardamom — pure bliss.</p>
+            <div class="card-footer">
+              <span class="card-price">Rs. 120</span>
+              <button class="card-btn" onclick="addToCart('Rose Lassi', 120)">+ Add</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── SPECIALS ───── -->
+  <section class="specials" id="specials">
+    <div class="specials-glow"></div>
+    <div class="container">
+      <p class="section-label text-center fade-in">Limited Availability</p>
+      <h2 class="section-title text-center fade-in">Weekly <em>Specials</em></h2>
+      <div class="section-divider centered fade-in"><span></span><span class="dot">◆</span><span></span></div>
+      <div class="specials-grid">
+        <div class="special-card fade-in">
+          <div class="special-day">Sunday Feast</div>
+          <div class="special-emoji">🍗</div>
+          <h3>Full Roast Chicken Dinner</h3>
+          <p>Whole roasted chicken with roasted vegetables, gravy and freshly baked naan. A Sunday ritual.</p>
+          <span class="special-price">Rs. 1,200 <small>/ family of 4</small></span>
+          <a href="#order" class="btn btn-primary btn-sm">Reserve</a>
+        </div>
+        <div class="special-card featured fade-in">
+          <div class="featured-label">Most Loved ❤️</div>
+          <div class="special-day">Weekend Brunch</div>
+          <div class="special-emoji">🥞</div>
+          <h3>The Grand Desi Brunch</h3>
+          <p>Halwa puri, channay, aloo tarkari, fresh lassi — the brunch that brings families together.</p>
+          <span class="special-price">Rs. 800 <small>/ person</small></span>
+          <a href="#order" class="btn btn-primary btn-sm">Reserve</a>
+        </div>
+        <div class="special-card fade-in">
+          <div class="special-day">Friday Special</div>
+          <div class="special-emoji">🫕</div>
+          <h3>Lamb Biryani Feast</h3>
+          <p>Fragrant long-grain rice layered with slow-cooked lamb, topped with fried onions and boiled eggs.</p>
+          <span class="special-price">Rs. 950 <small>/ person</small></span>
+          <a href="#order" class="btn btn-primary btn-sm">Reserve</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── TESTIMONIALS ───── -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-label text-center fade-in">Love Notes</p>
+      <h2 class="section-title text-center fade-in">What Our <em>Family</em> Says</h2>
+      <div class="section-divider centered fade-in"><span></span><span class="dot">◆</span><span></span></div>
+      <div class="testimonials-slider fade-in">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Every bite of the Dal Makhani took me straight back to my childhood kitchen. This is more than food — it's a time machine built with spices."</p>
+            <div class="testimonial-author">
+              <span class="author-avatar">👩</span>
+              <div>
+                <strong>Sana Mirza</strong>
+                <span>Karachi, Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"I ordered Nihari for the first time from Maa's Kitchen and cried — it tasted exactly like my late mother used to make. A true blessing."</p>
+            <div class="testimonial-author">
+              <span class="author-avatar">👨</span>
+              <div>
+                <strong>Ahmer Qureshi</strong>
+                <span>Lahore, Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"The Sunday Feast is our family's new ritual. Four kids, two grandparents, one table — Maa's food brings us all together every week."</p>
+            <div class="testimonial-author">
+              <span class="author-avatar">👩</span>
+              <div>
+                <strong>Fatima Sheikh</strong>
+                <span>Islamabad, Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"The Sheer Khurma made me call my mother the moment I finished eating. Pure nostalgia in a bowl. You can taste the love in every spoonful."</p>
+            <div class="testimonial-author">
+              <span class="author-avatar">👦</span>
+              <div>
+                <strong>Bilal Hassan</strong>
+                <span>Multan, Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn">‹</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── ORDER ───── -->
+  <section class="order" id="order">
+    <div class="order-deco"></div>
+    <div class="container">
+      <div class="order-grid">
+        <div class="order-info fade-in">
+          <p class="section-label">Place Your Order</p>
+          <h2 class="section-title">Reserve a <em>Taste</em><br />of Home Today</h2>
+          <div class="section-divider"><span></span><span class="dot">◆</span><span></span></div>
+          <p class="order-desc">
+            Call ahead or fill the form and we will prepare your meal fresh. 
+            Orders above Rs. 1,000 get a complimentary dessert — on Maa's love.
+          </p>
+          <div class="order-contact">
+            <div class="contact-item">
+              <span>📞</span>
+              <div>
+                <strong>Call Us</strong>
+                <p>+92 300 000 0000</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon–Sat: 10am – 9pm<br/>Sunday: Feast Day Only</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>📍</span>
+              <div>
+                <strong>Location</strong>
+                <p>Karachi, Sindh, Pakistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-form-wrap fade-in">
+          <div class="order-form">
+            <h3>Send Your Order</h3>
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Your Name" id="formName" />
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-input" placeholder="Phone Number" id="formPhone" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Delivery Address" id="formAddress" />
+            </div>
+            <div class="form-group">
+              <select class="form-input" id="formDish">
+                <option value="">Select a Dish or Special</option>
+                <option>Maa's Dal Makhani</option>
+                <option>Chicken Handi</option>
+                <option>Shami Kebab</option>
+                <option>Mutton Nihari</option>
+                <option>Sheer Khurma</option>
+                <option>Sunday Feast</option>
+                <option>Grand Desi Brunch</option>
+                <option>Lamb Biryani Feast</option>
+                <option>Custom Order</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea class="form-input" placeholder="Special instructions or custom requests…" id="formNote" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" onclick="submitOrder()">Send Order ✦</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Maa's Kitchen</span>
+        <span class="logo-icon">✦</span>
+        <p>"Cooked with love. Served with soul."</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#story">Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#specials">Specials</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#order">Order</a>
+      </div>
+      <div class="footer-social">
+        <p>Follow us with love</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon">📘</a>
+          <a href="#" class="social-icon">📸</a>
+          <a href="#" class="social-icon">🐦</a>
+          <a href="#" class="social-icon">📺</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Maa's Kitchen. Made with <span style="color:var(--red)">❤️</span> and a pinch of love.</p>
+    </div>
+  </footer>
+
+  <!-- ───── CART TOAST ───── -->
+  <div class="cart-toast" id="cartToast">
+    <span id="toastMsg">Item added!</span>
+  </div>
+
+  <!-- ───── ORDER SUCCESS MODAL ───── -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-icon">🎉</div>
+      <h3>Order Received!</h3>
+      <p>Maa is already in the kitchen preparing your meal with love. We'll call you shortly to confirm.</p>
+      <button class="btn btn-primary" onclick="closeModal()">Thank You!</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
